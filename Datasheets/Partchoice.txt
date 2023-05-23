@@ -1,0 +1,50 @@
+hardware inspiration:
+IP2368 Bi directional charger
+https://de.aliexpress.com/item/1005003954338954.html
+caps used 220uF 35V
+IP5328 github project
+https://github.com/YC-Lammy/IP5328P-powerbank_design
+
+
+Mosfets:
+SIR584DP-T1-RE3
+https://www.mouser.de/ProductDetail/Vishay-Semiconductors/SIR584DP-T1-RE3
+Reasoning: Niedriger ir, 80V, niedrige Qg und Verschiedene Packages
+
+Current Sensor:
+TMCS1108A3B-Q1
+TMCS1108A3BQDRQ1
+https://www.mouser.de/ProductDetail/Texas-Instruments/TMCS1108A3BQDRQ1
+Isolated current sensor, 200mV/A version, B /  Bi-Directional max range of 10A
+
+Half Bridge Gate Driver:
+UCC27282 3-A 120-V Half-Bridge Driver
+UCC27282QDRQ1
+https://www.mouser.de/ProductDetail/Texas-Instruments/UCC27282QDRQ1
+
+Inductor Selection:
+SRP1038WA-150M
+15uH 6.4A
+https://www.mouser.de/ProductDetail/Bourns/SRP1038WA-150M
+For calculations check matlab file
+
+Input main Cap
+A768MS277M1VLAS022
+35V 270uF
+
+Output main cap
+EEE-TP1K391M
+80V 390uF
+https://www.mouser.de/ProductDetail/Panasonic/EEE-TP1K391M
+
+Ceramic caps to be added
+
+
+
+
+To Add:
+TVS Diodes for different rails
+resistor divider for output voltage sense
+parts from example schematic of each component
+
+capacitor, inductors

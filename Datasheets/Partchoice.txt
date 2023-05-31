@@ -37,14 +37,43 @@ EEE-TP1K391M
 80V 390uF
 https://www.mouser.de/ProductDetail/Panasonic/EEE-TP1K391M
 
-Ceramic caps to be added
+Screw terminals
+https://www.mouser.de/ProductDetail/CUI-Devices/TB002-500-02BE
+
+
+Input TVS 24V
+T4F24AHM3/I
+
+Output TVS 51V
+1.5SMBJ51CA-H
 
 
 
+Resistor divider 60V to 3.3V
+28K
+RCS060328K0FKEA
+1620R
+ERA-3VEB1621V
 
-To Add:
-TVS Diodes for different rails
-resistor divider for output voltage sense
-parts from example schematic of each component
 
-capacitor, inductors
+
+PWM OUTPUT PINS used
+PA9 - CH10_21,
+PA8 - CH10_23,
+
+PB13 - CH10_30
+PB14 - CH10_28
+
+ADC pin used
+OUTPUT VOLTAGE: PA10 - CH10_33
+OUTPUT CURRENT: PB3 - CH10_31
+
+
+USED UP ADCS:
+ADC_Vbusc CN7_28
+ADC_Prov CN7_30
+ADC_Cons CN7_32
+ADC_Isense CN7_36
+
+
+check ICs for necessarry components

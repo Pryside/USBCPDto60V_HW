@@ -76,4 +76,14 @@ ADC_Cons CN7_32
 ADC_Isense CN7_36
 
 
-check ICs for necessarry components
+IC additionally needed components:
+Current sensor, OK
+Gate Driver IC, 4 needed:
+	Gate resistor, Bootstrap capacitor, Zener Gate Protection, VDD input cap
+	Gate resistor 3Ohm
+	Bootstrap 0.1uF, 25V
+	15V input zener
+	Input 1uF, 25V
+Voltage Regulator, to be checked!
+
+

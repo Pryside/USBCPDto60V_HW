@@ -69,7 +69,7 @@ OUTPUT VOLTAGE: PA10 - CH10_33
 OUTPUT CURRENT: PB3 - CH10_31
 
 
-USED UP ADCS:
+USED UP ADCS by DRP1M1-NUCLEO:
 ADC_Vbusc CN7_28
 ADC_Prov CN7_30
 ADC_Cons CN7_32
@@ -82,7 +82,7 @@ Gate Driver IC, 4 needed:
 	Gate resistor, Bootstrap capacitor, Zener Gate Protection, VDD input cap
 	Gate resistor 3Ohm
 	Bootstrap 0.1uF, 25V
-	15V input zener
+	15V zener
 	Input 1uF, 25V
 Voltage Regulator, to be checked!
 

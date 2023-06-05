@@ -5706,7 +5706,7 @@
     (property "Reference" "R7" (at 208.28 251.46 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1R" (at 210.82 251.46 90)
+    (property "Value" "1R" (at 208.28 254 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 208.28 249.428 90)

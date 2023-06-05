@@ -1,4 +1,4 @@
-21680609450262739
+21705892619817188
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -83020,12 +83020,89 @@ rotary encoder
 7
 6
 SamacSys_Parts
+150060BS75003
+	 0603
+LED
+0
+2
+2
+SamacSys_Parts
+150060SS75003
+150060SS75003-4
+LED
+0
+2
+2
+SamacSys_Parts
+BD750L5FPCE2
+TO252-3 (Dry pack)
+Integrated Circuit
+0
+3
+3
+SamacSys_Parts
+CAPAE1030X1270N
+MS
+Capacitor Polarised
+0
+2
+2
+SamacSys_Parts
+CAPC3225X220N
+GRM32 L=3.2mm W=2.5mm T=2.0mm
+Capacitor
+0
+2
+2
+SamacSys_Parts
+DIONM5436X244N
+SMB (DO-214AA)(H=2.44mm)-1
+TVS Diode (Bi-directional)
+0
+2
+2
+SamacSys_Parts
+EEEFK0J682AM
+SMD_Lytic_J16
+Capacitor Polarised
+0
+2
+2
+SamacSys_Parts
+EVPBDCC1A000
+EVP-BDCC1A000-1
+Switch
+0
+2
+2
+SamacSys_Parts
+HPZRC15QX
+HPZR-C15-QX-1
+Diode
+0
+2
+2
+SamacSys_Parts
+LEDC1608X80N
+150060GS75000
+LED
+0
+2
+2
+SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
 Integrated Circuit
 0
 8
 8
+SamacSys_Parts
+PTZTFTE2515B
+PTZTFTE2515B-1
+Zener Diode
+0
+2
+2
 SamacSys_Parts
 QFP50P900X900X160-48N
 LQFP 48 7x7x1.4 mm
@@ -83048,6 +83125,20 @@ MOSFET (N-Channel)
 11
 11
 SamacSys_Parts
+SMLP14ECNWT86
+SMLP14ECNWT86-3
+LED
+0
+2
+2
+SamacSys_Parts
+SODFL3718X108N
+SMF (DO-219AB)
+TVS Diode (Uni-directional)
+0
+2
+2
+SamacSys_Parts
 SOIC127P600X175-8N
 D0008B
 Integrated Circuit
@@ -83061,6 +83152,20 @@ Integrated Circuit
 0
 57
 57
+SamacSys_Parts
+SRP1038WA150M
+SRP1038WA-150M
+Inductor
+0
+2
+2
+SamacSys_Parts
+TB00250002BE
+TB002-500-02BE-1
+Connector
+0
+2
+2
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf

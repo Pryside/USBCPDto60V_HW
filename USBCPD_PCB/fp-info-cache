@@ -1,4 +1,4 @@
-21705892619817188
+21707578659352778
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -83128,6 +83128,13 @@ SamacSys_Parts
 SMLP14ECNWT86
 SMLP14ECNWT86-3
 LED
+0
+2
+2
+SamacSys_Parts
+SOD2512X110N
+SOD323
+Zener Diode
 0
 2
 2

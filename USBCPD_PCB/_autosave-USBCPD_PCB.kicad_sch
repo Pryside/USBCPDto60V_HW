@@ -4738,7 +4738,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 171.45 261.62 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 22decafd-8ff8-4573-b46e-2e8eaa4ea239)
-    (property "Reference" "TP?" (at 173.99 264.287 0)
+    (property "Reference" "TP7" (at 173.99 264.287 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TestPoint" (at 173.99 266.827 0)
@@ -4754,7 +4754,7 @@
     (instances
       (project "USBCPD_PCB"
         (path "/d348c750-b8a4-4ea0-a85d-ac4257fd8477"
-          (reference "TP?") (unit 1)
+          (reference "TP7") (unit 1)
         )
       )
     )
@@ -6535,7 +6535,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 171.45 227.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 70e2ec92-b39b-44cf-bc59-13e8d6a0a6ab)
-    (property "Reference" "TP?" (at 173.99 223.393 0)
+    (property "Reference" "TP6" (at 173.99 223.393 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 173.99 225.933 0)
@@ -6551,7 +6551,7 @@
     (instances
       (project "USBCPD_PCB"
         (path "/d348c750-b8a4-4ea0-a85d-ac4257fd8477"
-          (reference "TP?") (unit 1)
+          (reference "TP6") (unit 1)
         )
       )
     )
@@ -7904,7 +7904,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 281.94 261.62 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eccb1e88-c641-4ff0-8126-647472494d66)
-    (property "Reference" "TP?" (at 284.48 264.287 0)
+    (property "Reference" "TP10" (at 284.48 264.287 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TestPoint" (at 284.48 266.827 0)
@@ -7920,7 +7920,7 @@
     (instances
       (project "USBCPD_PCB"
         (path "/d348c750-b8a4-4ea0-a85d-ac4257fd8477"
-          (reference "TP?") (unit 1)
+          (reference "TP10") (unit 1)
         )
       )
     )
@@ -7929,7 +7929,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 281.94 226.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f0977072-9a48-4c2e-a739-b735d4f1cd28)
-    (property "Reference" "TP?" (at 284.48 222.123 0)
+    (property "Reference" "TP9" (at 284.48 222.123 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 284.48 224.663 0)
@@ -7945,7 +7945,7 @@
     (instances
       (project "USBCPD_PCB"
         (path "/d348c750-b8a4-4ea0-a85d-ac4257fd8477"
-          (reference "TP?") (unit 1)
+          (reference "TP9") (unit 1)
         )
       )
     )

@@ -1,0 +1,2024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\prysi\Documents\Git\USBCPDto60V_HW\USBCPD_PCB\USBCPD_PCB.kicad_sch</source>
+    <date>12/06/2023 13:12:56</date>
+    <tool>Eeschema 7.0.2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>USBCPD_PCB.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1uF 25V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6fc62898-f170-4b09-83e0-89efa097f28a</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>A768MS277M1VLAS022</value>
+      <footprint>CAPAE1030X1270N</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_A4088_A768.pdf</datasheet>
+      <fields>
+        <field name="Height">12.7</field>
+        <field name="Manufacturer_Name">KEMET</field>
+        <field name="Manufacturer_Part_Number">A768MS277M1VLAS022</field>
+        <field name="Mouser Part Number">80-A768MS277M1VLAS22</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/KEMET/A768MS277M1VLAS022?qs=yqaQSyyJnNiAnT74nat36w%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="A768MS277M1VLAS022" description="A768, Aluminum, Polymer Aluminum, 270 uF, 20%, 35 VDC, -55/+125C, 125C, -55C, 125C, 2,000 Hrs, 22 mOhms, 1,890 uA, 10mm, 12.2mm, 400"/>
+      <property name="Height" value="12.7"/>
+      <property name="Mouser Part Number" value="80-A768MS277M1VLAS22"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/KEMET/A768MS277M1VLAS022?qs=yqaQSyyJnNiAnT74nat36w%3D%3D"/>
+      <property name="Manufacturer_Name" value="KEMET"/>
+      <property name="Manufacturer_Part_Number" value="A768MS277M1VLAS022"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="A768, Aluminum, Polymer Aluminum, 270 uF, 20%, 35 VDC, -55/+125C, 125C, -55C, 125C, 2,000 Hrs, 22 mOhms, 1,890 uA, 10mm, 12.2mm, 400"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29444634-0e55-4e66-9f07-4de7d3df340e</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>GRM32DL8EL475KE07K</value>
+      <footprint>CAPC3225X220N</footprint>
+      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</datasheet>
+      <fields>
+        <field name="Height">2.2</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM32DL8EL475KE07K</field>
+        <field name="Mouser Part Number">81-GRM3DL8EL475KE07K</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM32DL8EL475KE07K?qs=By6Nw2ByBD3eoGXPfofc5w%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="GRM32DL8EL475KE07K" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 100VDC 4.7F 10%"/>
+      <property name="Height" value="2.2"/>
+      <property name="Mouser Part Number" value="81-GRM3DL8EL475KE07K"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM32DL8EL475KE07K?qs=By6Nw2ByBD3eoGXPfofc5w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Murata Electronics"/>
+      <property name="Manufacturer_Part_Number" value="GRM32DL8EL475KE07K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 100VDC 4.7F 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58b604dd-32b3-48b2-940b-18b421a2df60</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.33uF 25V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4b802a7-f0fb-4b02-a2b6-d7b352efff02</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>GRM32DL8EL475KE07K</value>
+      <footprint>CAPC3225X220N</footprint>
+      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</datasheet>
+      <fields>
+        <field name="Height">2.2</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM32DL8EL475KE07K</field>
+        <field name="Mouser Part Number">81-GRM3DL8EL475KE07K</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM32DL8EL475KE07K?qs=By6Nw2ByBD3eoGXPfofc5w%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="GRM32DL8EL475KE07K" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 100VDC 4.7F 10%"/>
+      <property name="Height" value="2.2"/>
+      <property name="Mouser Part Number" value="81-GRM3DL8EL475KE07K"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM32DL8EL475KE07K?qs=By6Nw2ByBD3eoGXPfofc5w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Murata Electronics"/>
+      <property name="Manufacturer_Part_Number" value="GRM32DL8EL475KE07K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 100VDC 4.7F 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf1a99f1-0c85-4696-923d-4012eb05856f</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>GRM32DL8EL475KE07K</value>
+      <footprint>CAPC3225X220N</footprint>
+      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</datasheet>
+      <fields>
+        <field name="Height">2.2</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM32DL8EL475KE07K</field>
+        <field name="Mouser Part Number">81-GRM3DL8EL475KE07K</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM32DL8EL475KE07K?qs=By6Nw2ByBD3eoGXPfofc5w%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="GRM32DL8EL475KE07K" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 100VDC 4.7F 10%"/>
+      <property name="Height" value="2.2"/>
+      <property name="Mouser Part Number" value="81-GRM3DL8EL475KE07K"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM32DL8EL475KE07K?qs=By6Nw2ByBD3eoGXPfofc5w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Murata Electronics"/>
+      <property name="Manufacturer_Part_Number" value="GRM32DL8EL475KE07K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 100VDC 4.7F 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1a2346a-6825-4db2-a8db-3b08e0625534</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>GRM32DL8EL475KE07K</value>
+      <footprint>CAPC3225X220N</footprint>
+      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</datasheet>
+      <fields>
+        <field name="Height">2.2</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM32DL8EL475KE07K</field>
+        <field name="Mouser Part Number">81-GRM3DL8EL475KE07K</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM32DL8EL475KE07K?qs=By6Nw2ByBD3eoGXPfofc5w%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="GRM32DL8EL475KE07K" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 100VDC 4.7F 10%"/>
+      <property name="Height" value="2.2"/>
+      <property name="Mouser Part Number" value="81-GRM3DL8EL475KE07K"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM32DL8EL475KE07K?qs=By6Nw2ByBD3eoGXPfofc5w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Murata Electronics"/>
+      <property name="Manufacturer_Part_Number" value="GRM32DL8EL475KE07K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 100VDC 4.7F 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e51a9a6-d688-4666-a94f-1e1d9cadfdb3</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>EEE-TP1K391M</value>
+      <footprint>EEEFK0J682AM</footprint>
+      <datasheet>http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/RDE0000C1255.pdf</datasheet>
+      <fields>
+        <field name="Height">17</field>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">EEE-TP1K391M</field>
+        <field name="Mouser Part Number">667-EEE-TP1K391M</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Panasonic/EEE-TP1K391M?qs=XFmntM7Yc9cqUm1NcV%252BD8A%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="EEE-TP1K391M" description="Aluminum Electrolytic Capacitors - SMD 80VDC 390uF 20% SMD AEC-Q200 High Ripple"/>
+      <property name="Height" value="17"/>
+      <property name="Mouser Part Number" value="667-EEE-TP1K391M"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Panasonic/EEE-TP1K391M?qs=XFmntM7Yc9cqUm1NcV%252BD8A%3D%3D"/>
+      <property name="Manufacturer_Name" value="Panasonic"/>
+      <property name="Manufacturer_Part_Number" value="EEE-TP1K391M"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Aluminum Electrolytic Capacitors - SMD 80VDC 390uF 20% SMD AEC-Q200 High Ripple"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b54f7da-e7aa-4779-b908-1bbd6c495c98</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1nF 25V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b410949-15c3-421b-9aac-40a122686439</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>4.7uF 25V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fcaaf92-b941-4ce3-b069-c9c4beb57b6f</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF 25V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86f2518b-612f-4e15-88a4-495592143dc4</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1nF 25V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7866617-2f45-4033-97f8-181412a81585</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>1nF 25V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7167d143-a089-4fb8-9fd4-45044e561269</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>4.7uF 25V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2102b34-5142-4e07-a2f1-de9d390a6764</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF 25V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d302ba4-cb8a-4c8a-b09a-71b64e4de131</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>1nF 25V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69468ff7-3505-497b-b285-20bfb396a99b</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>T4F24AHM3_I</value>
+      <footprint>SODFL3718X108N</footprint>
+      <datasheet>https://www.vishay.com/docs/87645/t4f10a_t4f51a.pdf</datasheet>
+      <fields>
+        <field name="Height">1.08</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">T4F24AHM3/I</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="T4F24AHM3_I" description="Surface Mount PAR Transient Voltage Suppressors High Temperature Stability and High Reliability Conditions, SMF (DO-219AB), Uni-directional, AEC-Q101, 400W"/>
+      <property name="Height" value="1.08"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="T4F24AHM3/I"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Surface Mount PAR Transient Voltage Suppressors High Temperature Stability and High Reliability Conditions, SMF (DO-219AB), Uni-directional, AEC-Q101, 400W"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c04a4290-9ceb-49b4-89bc-c0c312653569</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1.5SMBJ51CA-H</value>
+      <footprint>DIONM5436X244N</footprint>
+      <datasheet>https://www.bourns.com/docs/product-datasheets/smbj.pdf?sfvrsn=34552159_17</datasheet>
+      <fields>
+        <field name="Height">2.44</field>
+        <field name="Manufacturer_Name">Bourns</field>
+        <field name="Manufacturer_Part_Number">1.5SMBJ51CA-H</field>
+        <field name="Mouser Part Number">652-1.5SMBJ51CA-H</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Bourns/1.5SMBJ51CA-H?qs=Wj%2FVkw3K%252BMDwFn1dv2SjNA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1.5SMBJ51CA-H" description="DIO TVS VRWM 51V 1500W BIDIR SMB 7&quot; REEL"/>
+      <property name="Height" value="2.44"/>
+      <property name="Mouser Part Number" value="652-1.5SMBJ51CA-H"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Bourns/1.5SMBJ51CA-H?qs=Wj%2FVkw3K%252BMDwFn1dv2SjNA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Bourns"/>
+      <property name="Manufacturer_Part_Number" value="1.5SMBJ51CA-H"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="DIO TVS VRWM 51V 1500W BIDIR SMB 7&quot; REEL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57f8c8f1-3527-422b-b696-d71265c9b639</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>TMCS1108A3BQDRQ1</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tmcs1108-q1.pdf?ts=1634009572783&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526searchTerm%253DTMCS1108A4UQDRQ1%2526nr%253D2</datasheet>
+      <fields>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TMCS1108A4BQDRQ1</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TMCS1108A3BQDRQ1" description="Board Mount Current Sensors AEC-Q100, +/-100-V isolated Hall-effect current sensor with internal reference 8-SOIC -40 to 125"/>
+      <property name="Height" value="1.75"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TMCS1108A4BQDRQ1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Board Mount Current Sensors AEC-Q100, +/-100-V isolated Hall-effect current sensor with internal reference 8-SOIC -40 to 125"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc6666ed-26a6-4e5e-9781-96b24581720f</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>UCC27282QDRQ1</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ucc27282-q1.pdf?ts=1623396797698&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DUCC27282QDRQ1%2526keyMatch%253DUCC27282QDRQ1%2526tisearch%253Dsearch-everything%2526usecase%</datasheet>
+      <fields>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">UCC27282QDRQ1</field>
+        <field name="Mouser Part Number">595-UCC27282QDRQ1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC27282QDRQ1?qs=bAKSY%2FctAC5VNMI2MTT0cA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="UCC27282QDRQ1" description="Gate Drivers Automotive 3-A, 120-V half bridge driver with 5-V UVLO, interlock and enable 8-SOIC -40 to 125"/>
+      <property name="Height" value="1.75"/>
+      <property name="Mouser Part Number" value="595-UCC27282QDRQ1"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC27282QDRQ1?qs=bAKSY%2FctAC5VNMI2MTT0cA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="UCC27282QDRQ1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Gate Drivers Automotive 3-A, 120-V half bridge driver with 5-V UVLO, interlock and enable 8-SOIC -40 to 125"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e43ca8b-2c73-48d0-a5a9-7027e8d507ba</tstamps>
+    </comp>
+    <comp ref="IC3">
+      <value>UCC27282QDRQ1</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ucc27282-q1.pdf?ts=1623396797698&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DUCC27282QDRQ1%2526keyMatch%253DUCC27282QDRQ1%2526tisearch%253Dsearch-everything%2526usecase%</datasheet>
+      <fields>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">UCC27282QDRQ1</field>
+        <field name="Mouser Part Number">595-UCC27282QDRQ1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC27282QDRQ1?qs=bAKSY%2FctAC5VNMI2MTT0cA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="UCC27282QDRQ1" description="Gate Drivers Automotive 3-A, 120-V half bridge driver with 5-V UVLO, interlock and enable 8-SOIC -40 to 125"/>
+      <property name="Height" value="1.75"/>
+      <property name="Mouser Part Number" value="595-UCC27282QDRQ1"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC27282QDRQ1?qs=bAKSY%2FctAC5VNMI2MTT0cA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="UCC27282QDRQ1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Gate Drivers Automotive 3-A, 120-V half bridge driver with 5-V UVLO, interlock and enable 8-SOIC -40 to 125"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14b54b28-2013-484a-a4a2-fcd8b38d4899</tstamps>
+    </comp>
+    <comp ref="IC4">
+      <value>BAJ2CC0FP-E2</value>
+      <footprint>BD750L5FPCE2</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/6e960cf9b0529290922ae50bce54292d.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">ROHM Semiconductor</field>
+        <field name="Manufacturer_Part_Number">BAJ2CC0FP-E2</field>
+        <field name="Mouser Part Number">755-BAJ2CC0FP-E2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/BAJ2CC0FP-E2?qs=4kLU8WoGk0t9F92PedlmUw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="BAJ2CC0FP-E2" description="1A Fixed Output LDO Regulators: ROHM\'s LDO regulators continue the trend towards increasing miniaturization and greater power efficiency and are optimized for power supplies of all types. The broad lineup includes low saturation fixed output types in 1A/2A/0.3A ratings, models with different output voltages and packages, and units with/without a shutdown switch. In addition, overcurrent, thermal shutdown, and overvoltage protection circuits are integrated to prevent IC destruction due to output shorts, IC o"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="755-BAJ2CC0FP-E2"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/BAJ2CC0FP-E2?qs=4kLU8WoGk0t9F92PedlmUw%3D%3D"/>
+      <property name="Manufacturer_Name" value="ROHM Semiconductor"/>
+      <property name="Manufacturer_Part_Number" value="BAJ2CC0FP-E2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="1A Fixed Output LDO Regulators: ROHM\'s LDO regulators continue the trend towards increasing miniaturization and greater power efficiency and are optimized for power supplies of all types. The broad lineup includes low saturation fixed output types in 1A/2A/0.3A ratings, models with different output voltages and packages, and units with/without a shutdown switch. In addition, overcurrent, thermal shutdown, and overvoltage protection circuits are integrated to prevent IC destruction due to output shorts, IC o"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01b5561f-cf74-4f0b-a5b9-16b35978f83f</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>TB002-500-02BE</value>
+      <footprint>TB00250002BE</footprint>
+      <fields>
+        <field name="Height">10.4</field>
+        <field name="Manufacturer_Name">CUI Devices</field>
+        <field name="Manufacturer_Part_Number">TB002-500-02BE</field>
+        <field name="Mouser Part Number">490-TB002-500-02BE</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/TB002-500-02BE?qs=vLWxofP3U2x9716kcgva%2Fw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TB002-500-02BE" description="Fixed Terminal Blocks Terminal block, screw type, 5.00, horizontal, 2 poles, CUI Blue, slotted screw, PCB mount"/>
+      <property name="Height" value="10.4"/>
+      <property name="Mouser Part Number" value="490-TB002-500-02BE"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/CUI-Devices/TB002-500-02BE?qs=vLWxofP3U2x9716kcgva%2Fw%3D%3D"/>
+      <property name="Manufacturer_Name" value="CUI Devices"/>
+      <property name="Manufacturer_Part_Number" value="TB002-500-02BE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Fixed Terminal Blocks Terminal block, screw type, 5.00, horizontal, 2 poles, CUI Blue, slotted screw, PCB mount"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40a5b37e-2d76-4940-a10d-0a358d9bef38</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>TB002-500-02BE</value>
+      <footprint>TB00250002BE</footprint>
+      <fields>
+        <field name="Height">10.4</field>
+        <field name="Manufacturer_Name">CUI Devices</field>
+        <field name="Manufacturer_Part_Number">TB002-500-02BE</field>
+        <field name="Mouser Part Number">490-TB002-500-02BE</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/TB002-500-02BE?qs=vLWxofP3U2x9716kcgva%2Fw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TB002-500-02BE" description="Fixed Terminal Blocks Terminal block, screw type, 5.00, horizontal, 2 poles, CUI Blue, slotted screw, PCB mount"/>
+      <property name="Height" value="10.4"/>
+      <property name="Mouser Part Number" value="490-TB002-500-02BE"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/CUI-Devices/TB002-500-02BE?qs=vLWxofP3U2x9716kcgva%2Fw%3D%3D"/>
+      <property name="Manufacturer_Name" value="CUI Devices"/>
+      <property name="Manufacturer_Part_Number" value="TB002-500-02BE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Fixed Terminal Blocks Terminal block, screw type, 5.00, horizontal, 2 poles, CUI Blue, slotted screw, PCB mount"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>383e34b3-29cf-46e5-a99d-dc0cecbc67b5</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf663d73-e5e8-4d7b-bb3a-c37905b54571</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>SRP1038WA-150M</value>
+      <footprint>SRP1038WA150M</footprint>
+      <datasheet>http://www.bourns.com/docs/Product-Datasheets/SRP1038WA.pdf</datasheet>
+      <fields>
+        <field name="Height">4</field>
+        <field name="Manufacturer_Name">Bourns</field>
+        <field name="Manufacturer_Part_Number">SRP1038WA-150M</field>
+        <field name="Mouser Part Number">652-SRP1038WA-150M</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Bourns/SRP1038WA-150M?qs=Li%252BoUPsLEnuAb7ZgAGLDrA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="SRP1038WA-150M" description="Ind,11x10x3.8mm,15uH?20%,6.4A,shd"/>
+      <property name="Height" value="4"/>
+      <property name="Mouser Part Number" value="652-SRP1038WA-150M"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Bourns/SRP1038WA-150M?qs=Li%252BoUPsLEnuAb7ZgAGLDrA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Bourns"/>
+      <property name="Manufacturer_Part_Number" value="SRP1038WA-150M"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Ind,11x10x3.8mm,15uH?20%,6.4A,shd"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04b600fc-08d5-4917-9e21-407f16729945</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>150060BS75003</value>
+      <footprint>150060BS75003</footprint>
+      <datasheet>https://www.we-online.com/components/products/datasheet/150060BS75003.pdf</datasheet>
+      <fields>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">150060BS75003</field>
+        <field name="Mouser Part Number">710-150060BS75003</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060BS75003?qs=Li%252BoUPsLEnu8LvIbM48DKA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="150060BS75003" description="Standard LEDs - SMD WL-SMCW 350mcd 3,2V 0603 Blue 470nm Adv"/>
+      <property name="Height" value="0.8"/>
+      <property name="Mouser Part Number" value="710-150060BS75003"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060BS75003?qs=Li%252BoUPsLEnu8LvIbM48DKA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="150060BS75003"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Standard LEDs - SMD WL-SMCW 350mcd 3,2V 0603 Blue 470nm Adv"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>735bb37d-446a-418a-9488-1efc9d4172be</tstamps>
+    </comp>
+    <comp ref="LED2">
+      <value>150060GS75003</value>
+      <footprint>LEDC1608X80N</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060GS75003/16022170</datasheet>
+      <fields>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">150060GS75003</field>
+        <field name="Mouser Part Number">710-150060GS75003</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060GS75003?qs=Li%252BoUPsLEnvG1G7h5%252BHd6A%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="150060GS75003" description="WURTH ELEKTRONIK - 150060GS75003 - LED, Green, SMD, 0603 [1608 Metric], 30 mA, 3.2 V, 515 nm"/>
+      <property name="Height" value="0.8"/>
+      <property name="Mouser Part Number" value="710-150060GS75003"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060GS75003?qs=Li%252BoUPsLEnvG1G7h5%252BHd6A%3D%3D"/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="150060GS75003"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="WURTH ELEKTRONIK - 150060GS75003 - LED, Green, SMD, 0603 [1608 Metric], 30 mA, 3.2 V, 515 nm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c875a7e6-35f7-436e-af06-62ba565eec4c</tstamps>
+    </comp>
+    <comp ref="LED3">
+      <value>150060SS75003</value>
+      <footprint>150060SS75003</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/150060SS75003.pdf</datasheet>
+      <fields>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">150060SS75003</field>
+        <field name="Mouser Part Number">710-150060SS75003</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060SS75003?qs=Li%252BoUPsLEntNiRmIe%252Bnzlg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="150060SS75003" description="Standard LEDs - SMD WL-SMCW 320mcd 1,9V 0603 S_Red 630nm Adv"/>
+      <property name="Height" value="0.8"/>
+      <property name="Mouser Part Number" value="710-150060SS75003"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060SS75003?qs=Li%252BoUPsLEntNiRmIe%252Bnzlg%3D%3D"/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="150060SS75003"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Standard LEDs - SMD WL-SMCW 320mcd 1,9V 0603 S_Red 630nm Adv"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0561a48-afe1-441e-b4ac-48e4046bf1d9</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>SIR584DP-T1-RE3</value>
+      <footprint>SamacSys_Parts:SIR584DPT1RE3</footprint>
+      <datasheet>https://www.vishay.com/doc?63128</datasheet>
+      <fields>
+        <field name="Height">1.17</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">SIR582DP-T1-RE3</field>
+        <field name="Mouser Part Number">625-SIR582DP-T1-RE3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SIR582DP-T1-RE3?qs=doiCPypUmgEGtIDje38m2w%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="SIR584DP-T1-RE3" description="N-Channel MOSFET, 116 A, 80 V PowerPAK SO-8 Vishay SiR582DP-T1-RE3"/>
+      <property name="Height" value="1.17"/>
+      <property name="Mouser Part Number" value="625-SIR582DP-T1-RE3"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SIR582DP-T1-RE3?qs=doiCPypUmgEGtIDje38m2w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="SIR582DP-T1-RE3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="N-Channel MOSFET, 116 A, 80 V PowerPAK SO-8 Vishay SiR582DP-T1-RE3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbf9c8e5-f5b2-4865-a2db-082316e35da8</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>SIR584DP-T1-RE3</value>
+      <footprint>SamacSys_Parts:SIR584DPT1RE3</footprint>
+      <datasheet>https://www.vishay.com/doc?63128</datasheet>
+      <fields>
+        <field name="Height">1.17</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">SIR582DP-T1-RE3</field>
+        <field name="Mouser Part Number">625-SIR582DP-T1-RE3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SIR582DP-T1-RE3?qs=doiCPypUmgEGtIDje38m2w%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="SIR584DP-T1-RE3" description="N-Channel MOSFET, 116 A, 80 V PowerPAK SO-8 Vishay SiR582DP-T1-RE3"/>
+      <property name="Height" value="1.17"/>
+      <property name="Mouser Part Number" value="625-SIR582DP-T1-RE3"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SIR582DP-T1-RE3?qs=doiCPypUmgEGtIDje38m2w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="SIR582DP-T1-RE3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="N-Channel MOSFET, 116 A, 80 V PowerPAK SO-8 Vishay SiR582DP-T1-RE3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>293c7cf2-fbb0-45cb-bc49-d04ebca1d111</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>SIR584DP-T1-RE3</value>
+      <footprint>SamacSys_Parts:SIR584DPT1RE3</footprint>
+      <datasheet>https://www.vishay.com/doc?63128</datasheet>
+      <fields>
+        <field name="Height">1.17</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">SIR582DP-T1-RE3</field>
+        <field name="Mouser Part Number">625-SIR582DP-T1-RE3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SIR582DP-T1-RE3?qs=doiCPypUmgEGtIDje38m2w%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="SIR584DP-T1-RE3" description="N-Channel MOSFET, 116 A, 80 V PowerPAK SO-8 Vishay SiR582DP-T1-RE3"/>
+      <property name="Height" value="1.17"/>
+      <property name="Mouser Part Number" value="625-SIR582DP-T1-RE3"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SIR582DP-T1-RE3?qs=doiCPypUmgEGtIDje38m2w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="SIR582DP-T1-RE3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="N-Channel MOSFET, 116 A, 80 V PowerPAK SO-8 Vishay SiR582DP-T1-RE3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51a5de20-84b0-47a4-b6f9-849a08c40bdc</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>SIR584DP-T1-RE3</value>
+      <footprint>SamacSys_Parts:SIR584DPT1RE3</footprint>
+      <datasheet>https://www.vishay.com/doc?63128</datasheet>
+      <fields>
+        <field name="Height">1.17</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">SIR582DP-T1-RE3</field>
+        <field name="Mouser Part Number">625-SIR582DP-T1-RE3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SIR582DP-T1-RE3?qs=doiCPypUmgEGtIDje38m2w%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="SIR584DP-T1-RE3" description="N-Channel MOSFET, 116 A, 80 V PowerPAK SO-8 Vishay SiR582DP-T1-RE3"/>
+      <property name="Height" value="1.17"/>
+      <property name="Mouser Part Number" value="625-SIR582DP-T1-RE3"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SIR582DP-T1-RE3?qs=doiCPypUmgEGtIDje38m2w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="SIR582DP-T1-RE3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="N-Channel MOSFET, 116 A, 80 V PowerPAK SO-8 Vishay SiR582DP-T1-RE3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b3d3d83-e2ac-4ebd-b645-d4d9032ea591</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>472d7264-4d38-4292-9cef-1e76931bfd16</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15076204-3a00-45e9-9509-976e523b6b71</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>3R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>431b42aa-df2c-4bf9-a4b2-c2056e42b28e</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>3R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17367f07-78c3-4811-a974-706ecff95418</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>538ee670-ac58-43af-9752-9973fac6cb64</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fb6da55-f37f-41e1-a3de-b788ae0f947b</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52e352de-be81-46bc-ad05-47614754bc70</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19791776-60e0-4a68-9abc-a92e5404ab90</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>900R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4f7f397-f992-4831-930f-6a2af16440e9</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>2.8K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6a1cbf9-d322-4496-aafc-57d8fbbbf545</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f3185fc-0b3b-45d4-af9e-dea44984c73b</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>3R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db625ce6-718a-4cff-a139-da3598d61dbf</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>28K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57139679-dd6f-4f80-8ea9-3ef89aa1b61f</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>1K62</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70c963ed-cf8c-4895-9172-f52224d5d555</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>3R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26ffdc8c-7bff-436b-9370-a2d0bf1570af</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>EVP-BDCC1A000</value>
+      <footprint>EVPBDCC1A000</footprint>
+      <datasheet>https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/245483</datasheet>
+      <fields>
+        <field name="Height">4.2</field>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">EVP-BDCC1A000</field>
+        <field name="Mouser Part Number">667-EVP-BDCC1A000</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Panasonic/EVP-BDCC1A000?qs=4qgZ1GHix0Ui2FekNThUWQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="EVP-BDCC1A000" description="Tactile Switches 6mm x 6mm SMD Op Force 4.0N"/>
+      <property name="Height" value="4.2"/>
+      <property name="Mouser Part Number" value="667-EVP-BDCC1A000"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Panasonic/EVP-BDCC1A000?qs=4qgZ1GHix0Ui2FekNThUWQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Panasonic"/>
+      <property name="Manufacturer_Part_Number" value="EVP-BDCC1A000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Tactile Switches 6mm x 6mm SMD Op Force 4.0N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87d0eaa8-3ba9-41a5-8edc-a4d643120e45</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9e5d8ac-5d96-484b-9aa0-9c0eddd76a08</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b37956d2-5c38-4765-8648-abd766b23256</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61249ab0-1827-4d8f-a559-f81e052fa478</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e268f63f-0271-4512-9ad8-8865bf480cd5</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d13c14f-6232-4eee-b6ac-b747846a1b80</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70e2ec92-b39b-44cf-bc59-13e8d6a0a6ab</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22decafd-8ff8-4573-b46e-2e8eaa4ea239</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e668eba-a67d-4cf9-b81d-7d380572170e</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0977072-9a48-4c2e-a739-b735d4f1cd28</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eccb1e88-c641-4ff0-8126-647472494d66</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>NUCLEO-G474RE</value>
+      <footprint>USBC_PD:ST_NUCLEO-G474RE</footprint>
+      <fields>
+        <field name="MANUFACTURER">STMicroelectronics</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">N/A</field>
+        <field name="PARTREV">13</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="USBC_PD" part="NUCLEO-G474RE" description=""/>
+      <property name="PARTREV" value="13"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="N/A"/>
+      <property name="MANUFACTURER" value="STMicroelectronics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49d49858-2057-47c8-9902-ad6adf02fcac 18703dec-6d7e-4008-964d-a3774349f29d</tstamps>
+    </comp>
+    <comp ref="Z1">
+      <value>PDZ15B,115</value>
+      <footprint>SOD2512X110N</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PDZ-B_SER.pdf</datasheet>
+      <fields>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PDZ15B,115</field>
+        <field name="Mouser Part Number">771-PDZ15B-T/R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PDZ15B115?qs=LOCUfHb8d9sgWonFEy95lA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="PDZ15B,115" description="Nexperia Zener Diode, 15V 2% 400 mW SMT 2-Pin SOD-323"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="771-PDZ15B-T/R"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PDZ15B115?qs=LOCUfHb8d9sgWonFEy95lA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Nexperia"/>
+      <property name="Manufacturer_Part_Number" value="PDZ15B,115"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Nexperia Zener Diode, 15V 2% 400 mW SMT 2-Pin SOD-323"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21c1842a-7370-4770-8f24-5fbceffdf9a1</tstamps>
+    </comp>
+    <comp ref="Z2">
+      <value>PDZ15B,115</value>
+      <footprint>SOD2512X110N</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PDZ-B_SER.pdf</datasheet>
+      <fields>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PDZ15B,115</field>
+        <field name="Mouser Part Number">771-PDZ15B-T/R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PDZ15B115?qs=LOCUfHb8d9sgWonFEy95lA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="PDZ15B,115" description="Nexperia Zener Diode, 15V 2% 400 mW SMT 2-Pin SOD-323"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="771-PDZ15B-T/R"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PDZ15B115?qs=LOCUfHb8d9sgWonFEy95lA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Nexperia"/>
+      <property name="Manufacturer_Part_Number" value="PDZ15B,115"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Nexperia Zener Diode, 15V 2% 400 mW SMT 2-Pin SOD-323"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3374ee05-3aa0-4fbc-9b9f-7c676081710b</tstamps>
+    </comp>
+    <comp ref="Z3">
+      <value>PDZ15B,115</value>
+      <footprint>SOD2512X110N</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PDZ-B_SER.pdf</datasheet>
+      <fields>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PDZ15B,115</field>
+        <field name="Mouser Part Number">771-PDZ15B-T/R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PDZ15B115?qs=LOCUfHb8d9sgWonFEy95lA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="PDZ15B,115" description="Nexperia Zener Diode, 15V 2% 400 mW SMT 2-Pin SOD-323"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="771-PDZ15B-T/R"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PDZ15B115?qs=LOCUfHb8d9sgWonFEy95lA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Nexperia"/>
+      <property name="Manufacturer_Part_Number" value="PDZ15B,115"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Nexperia Zener Diode, 15V 2% 400 mW SMT 2-Pin SOD-323"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fadaa69-90a4-483c-962a-de2563c52ddd</tstamps>
+    </comp>
+    <comp ref="Z4">
+      <value>PDZ15B,115</value>
+      <footprint>SOD2512X110N</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PDZ-B_SER.pdf</datasheet>
+      <fields>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PDZ15B,115</field>
+        <field name="Mouser Part Number">771-PDZ15B-T/R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PDZ15B115?qs=LOCUfHb8d9sgWonFEy95lA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="PDZ15B,115" description="Nexperia Zener Diode, 15V 2% 400 mW SMT 2-Pin SOD-323"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="771-PDZ15B-T/R"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PDZ15B115?qs=LOCUfHb8d9sgWonFEy95lA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Nexperia"/>
+      <property name="Manufacturer_Part_Number" value="PDZ15B,115"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBCPD_PCB.kicad_sch"/>
+      <property name="ki_description" value="Nexperia Zener Diode, 15V 2% 400 mW SMT 2-Pin SOD-323"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7ab0e08-9f7e-45e9-b8af-14af71a9d5f7</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Bridged">
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Bridged</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="1.5SMBJ51CA-H">
+      <description>DIO TVS VRWM 51V 1500W BIDIR SMB 7" REEL</description>
+      <docs>https://www.bourns.com/docs/product-datasheets/smbj.pdf?sfvrsn=34552159_17</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1.5SMBJ51CA-H</field>
+        <field name="Footprint">DIONM5436X244N</field>
+        <field name="Datasheet">https://www.bourns.com/docs/product-datasheets/smbj.pdf?sfvrsn=34552159_17</field>
+        <field name="Height">2.44</field>
+        <field name="Mouser Part Number">652-1.5SMBJ51CA-H</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Bourns/1.5SMBJ51CA-H?qs=Wj%2FVkw3K%252BMDwFn1dv2SjNA%3D%3D</field>
+        <field name="Manufacturer_Name">Bourns</field>
+        <field name="Manufacturer_Part_Number">1.5SMBJ51CA-H</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="150060BS75003">
+      <description>Standard LEDs - SMD WL-SMCW 350mcd 3,2V 0603 Blue 470nm Adv</description>
+      <docs>https://www.we-online.com/components/products/datasheet/150060BS75003.pdf</docs>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">150060BS75003</field>
+        <field name="Footprint">150060BS75003</field>
+        <field name="Datasheet">https://www.we-online.com/components/products/datasheet/150060BS75003.pdf</field>
+        <field name="Height">0.8</field>
+        <field name="Mouser Part Number">710-150060BS75003</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060BS75003?qs=Li%252BoUPsLEnu8LvIbM48DKA%3D%3D</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">150060BS75003</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="150060GS75003">
+      <description>WURTH ELEKTRONIK - 150060GS75003 - LED, Green, SMD, 0603 [1608 Metric], 30 mA, 3.2 V, 515 nm</description>
+      <docs>https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060GS75003/16022170</docs>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">150060GS75003</field>
+        <field name="Footprint">LEDC1608X80N</field>
+        <field name="Datasheet">https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060GS75003/16022170</field>
+        <field name="Height">0.8</field>
+        <field name="Mouser Part Number">710-150060GS75003</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060GS75003?qs=Li%252BoUPsLEnvG1G7h5%252BHd6A%3D%3D</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">150060GS75003</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="150060SS75003">
+      <description>Standard LEDs - SMD WL-SMCW 320mcd 1,9V 0603 S_Red 630nm Adv</description>
+      <docs>https://www.we-online.com/catalog/datasheet/150060SS75003.pdf</docs>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">150060SS75003</field>
+        <field name="Footprint">150060SS75003</field>
+        <field name="Datasheet">https://www.we-online.com/catalog/datasheet/150060SS75003.pdf</field>
+        <field name="Height">0.8</field>
+        <field name="Mouser Part Number">710-150060SS75003</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060SS75003?qs=Li%252BoUPsLEntNiRmIe%252Bnzlg%3D%3D</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">150060SS75003</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="A768MS277M1VLAS022">
+      <description>A768, Aluminum, Polymer Aluminum, 270 uF, 20%, 35 VDC, -55/+125C, 125C, -55C, 125C, 2,000 Hrs, 22 mOhms, 1,890 uA, 10mm, 12.2mm, 400</description>
+      <docs>https://content.kemet.com/datasheets/KEM_A4088_A768.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">A768MS277M1VLAS022</field>
+        <field name="Footprint">CAPAE1030X1270N</field>
+        <field name="Datasheet">https://content.kemet.com/datasheets/KEM_A4088_A768.pdf</field>
+        <field name="Height">12.7</field>
+        <field name="Mouser Part Number">80-A768MS277M1VLAS22</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/KEMET/A768MS277M1VLAS022?qs=yqaQSyyJnNiAnT74nat36w%3D%3D</field>
+        <field name="Manufacturer_Name">KEMET</field>
+        <field name="Manufacturer_Part_Number">A768MS277M1VLAS022</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="BAJ2CC0FP-E2">
+      <description>1A Fixed Output LDO Regulators: ROHM\'s LDO regulators continue the trend towards increasing miniaturization and greater power efficiency and are optimized for power supplies of all types. The broad lineup includes low saturation fixed output types in 1A/2A/0.3A ratings, models with different output voltages and packages, and units with/without a shutdown switch. In addition, overcurrent, thermal shutdown, and overvoltage protection circuits are integrated to prevent IC destruction due to output shorts, IC o</description>
+      <docs>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/6e960cf9b0529290922ae50bce54292d.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">BAJ2CC0FP-E2</field>
+        <field name="Footprint">BD750L5FPCE2</field>
+        <field name="Datasheet">https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/6e960cf9b0529290922ae50bce54292d.pdf</field>
+        <field name="Mouser Part Number">755-BAJ2CC0FP-E2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/BAJ2CC0FP-E2?qs=4kLU8WoGk0t9F92PedlmUw%3D%3D</field>
+        <field name="Manufacturer_Name">ROHM Semiconductor</field>
+        <field name="Manufacturer_Part_Number">BAJ2CC0FP-E2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="passive"/>
+        <pin num="3" name="OUT" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="EEE-TP1K391M">
+      <description>Aluminum Electrolytic Capacitors - SMD 80VDC 390uF 20% SMD AEC-Q200 High Ripple</description>
+      <docs>http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/RDE0000C1255.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">EEE-TP1K391M</field>
+        <field name="Footprint">EEEFK0J682AM</field>
+        <field name="Datasheet">http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/RDE0000C1255.pdf</field>
+        <field name="Height">17</field>
+        <field name="Mouser Part Number">667-EEE-TP1K391M</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Panasonic/EEE-TP1K391M?qs=XFmntM7Yc9cqUm1NcV%252BD8A%3D%3D</field>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">EEE-TP1K391M</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="EVP-BDCC1A000">
+      <description>Tactile Switches 6mm x 6mm SMD Op Force 4.0N</description>
+      <docs>https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/245483</docs>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">EVP-BDCC1A000</field>
+        <field name="Footprint">EVPBDCC1A000</field>
+        <field name="Datasheet">https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/245483</field>
+        <field name="Height">4.2</field>
+        <field name="Mouser Part Number">667-EVP-BDCC1A000</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Panasonic/EVP-BDCC1A000?qs=4qgZ1GHix0Ui2FekNThUWQ%3D%3D</field>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">EVP-BDCC1A000</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="COM" type="passive"/>
+        <pin num="B1" name="NO" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="GRM32DL8EL475KE07K">
+      <description>Multilayer Ceramic Capacitors MLCC - SMD/SMT 100VDC 4.7F 10%</description>
+      <docs>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GRM32DL8EL475KE07K</field>
+        <field name="Footprint">CAPC3225X220N</field>
+        <field name="Datasheet">http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</field>
+        <field name="Height">2.2</field>
+        <field name="Mouser Part Number">81-GRM3DL8EL475KE07K</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM32DL8EL475KE07K?qs=By6Nw2ByBD3eoGXPfofc5w%3D%3D</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM32DL8EL475KE07K</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="PDZ15B,115">
+      <description>Nexperia Zener Diode, 15V 2% 400 mW SMT 2-Pin SOD-323</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/PDZ-B_SER.pdf</docs>
+      <fields>
+        <field name="Reference">Z</field>
+        <field name="Value">PDZ15B,115</field>
+        <field name="Footprint">SOD2512X110N</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PDZ-B_SER.pdf</field>
+        <field name="Height">1.1</field>
+        <field name="Mouser Part Number">771-PDZ15B-T/R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PDZ15B115?qs=LOCUfHb8d9sgWonFEy95lA%3D%3D</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PDZ15B,115</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="SIR584DP-T1-RE3">
+      <description>N-Channel MOSFET, 116 A, 80 V PowerPAK SO-8 Vishay SiR582DP-T1-RE3</description>
+      <docs>https://www.vishay.com/doc?63128</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">SIR584DP-T1-RE3</field>
+        <field name="Footprint">SIR582DPT1RE3</field>
+        <field name="Datasheet">https://www.vishay.com/doc?63128</field>
+        <field name="Height">1.17</field>
+        <field name="Mouser Part Number">625-SIR582DP-T1-RE3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SIR582DP-T1-RE3?qs=doiCPypUmgEGtIDje38m2w%3D%3D</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">SIR582DP-T1-RE3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S_1" type="passive"/>
+        <pin num="2" name="S_2" type="passive"/>
+        <pin num="3" name="S_3" type="passive"/>
+        <pin num="4" name="G" type="passive"/>
+        <pin num="5" name="D_1" type="passive"/>
+        <pin num="6" name="D_2" type="passive"/>
+        <pin num="7" name="D_3" type="passive"/>
+        <pin num="8" name="D_4" type="passive"/>
+        <pin num="9" name="D_5" type="passive"/>
+        <pin num="10" name="D_6" type="passive"/>
+        <pin num="11" name="D_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="SRP1038WA-150M">
+      <description>Ind,11x10x3.8mm,15uH?20%,6.4A,shd</description>
+      <docs>http://www.bourns.com/docs/Product-Datasheets/SRP1038WA.pdf</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">SRP1038WA-150M</field>
+        <field name="Footprint">SRP1038WA150M</field>
+        <field name="Datasheet">http://www.bourns.com/docs/Product-Datasheets/SRP1038WA.pdf</field>
+        <field name="Height">4</field>
+        <field name="Mouser Part Number">652-SRP1038WA-150M</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Bourns/SRP1038WA-150M?qs=Li%252BoUPsLEnuAb7ZgAGLDrA%3D%3D</field>
+        <field name="Manufacturer_Name">Bourns</field>
+        <field name="Manufacturer_Part_Number">SRP1038WA-150M</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="T4F24AHM3_I">
+      <description>Surface Mount PAR Transient Voltage Suppressors High Temperature Stability and High Reliability Conditions, SMF (DO-219AB), Uni-directional, AEC-Q101, 400W</description>
+      <docs>https://www.vishay.com/docs/87645/t4f10a_t4f51a.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">T4F24AHM3_I</field>
+        <field name="Footprint">SODFL3718X108N</field>
+        <field name="Datasheet">https://www.vishay.com/docs/87645/t4f10a_t4f51a.pdf</field>
+        <field name="Height">1.08</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">T4F24AHM3/I</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="TB002-500-02BE">
+      <description>Fixed Terminal Blocks Terminal block, screw type, 5.00, horizontal, 2 poles, CUI Blue, slotted screw, PCB mount</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TB002-500-02BE</field>
+        <field name="Footprint">TB00250002BE</field>
+        <field name="Height">10.4</field>
+        <field name="Mouser Part Number">490-TB002-500-02BE</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/TB002-500-02BE?qs=vLWxofP3U2x9716kcgva%2Fw%3D%3D</field>
+        <field name="Manufacturer_Name">CUI Devices</field>
+        <field name="Manufacturer_Part_Number">TB002-500-02BE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="TMCS1108A3BQDRQ1">
+      <description>Board Mount Current Sensors AEC-Q100, +/-100-V isolated Hall-effect current sensor with internal reference 8-SOIC -40 to 125</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tmcs1108-q1.pdf?ts=1634009572783&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526searchTerm%253DTMCS1108A4UQDRQ1%2526nr%253D2</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TMCS1108A3BQDRQ1</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tmcs1108-q1.pdf?ts=1634009572783&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526searchTerm%253DTMCS1108A4UQDRQ1%2526nr%253D2</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TMCS1108A4BQDRQ1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN+_1" type="passive"/>
+        <pin num="2" name="IN+_2" type="passive"/>
+        <pin num="3" name="IN-_1" type="passive"/>
+        <pin num="4" name="IN-_2" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="NC" type="no_connect"/>
+        <pin num="7" name="VOUT" type="passive"/>
+        <pin num="8" name="VS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="UCC27282QDRQ1">
+      <description>Gate Drivers Automotive 3-A, 120-V half bridge driver with 5-V UVLO, interlock and enable 8-SOIC -40 to 125</description>
+      <docs>https://www.ti.com/lit/ds/symlink/ucc27282-q1.pdf?ts=1623396797698&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DUCC27282QDRQ1%2526keyMatch%253DUCC27282QDRQ1%2526tisearch%253Dsearch-everything%2526usecase%</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">UCC27282QDRQ1</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ucc27282-q1.pdf?ts=1623396797698&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DUCC27282QDRQ1%2526keyMatch%253DUCC27282QDRQ1%2526tisearch%253Dsearch-everything%2526usecase%</field>
+        <field name="Height">1.75</field>
+        <field name="Mouser Part Number">595-UCC27282QDRQ1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC27282QDRQ1?qs=bAKSY%2FctAC5VNMI2MTT0cA%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">UCC27282QDRQ1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="passive"/>
+        <pin num="2" name="HB" type="passive"/>
+        <pin num="3" name="HO" type="passive"/>
+        <pin num="4" name="HS" type="passive"/>
+        <pin num="5" name="HI" type="passive"/>
+        <pin num="6" name="LI" type="passive"/>
+        <pin num="7" name="VSS" type="passive"/>
+        <pin num="8" name="LO" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="USBC_PD" part="NUCLEO-G474RE">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NUCLEO-G474RE</field>
+        <field name="Footprint">USBC_PD:ST_NUCLEO-G474RE</field>
+        <field name="PARTREV">13</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">N/A</field>
+        <field name="MANUFACTURER">STMicroelectronics</field>
+      </fields>
+      <pins>
+        <pin num="CN5_1" name="D8" type="bidirectional"/>
+        <pin num="CN5_2" name="D9" type="bidirectional"/>
+        <pin num="CN5_3" name="D10" type="bidirectional"/>
+        <pin num="CN5_4" name="D11" type="bidirectional"/>
+        <pin num="CN5_5" name="D12" type="bidirectional"/>
+        <pin num="CN5_6" name="D13" type="bidirectional"/>
+        <pin num="CN5_7" name="GND" type="power_in"/>
+        <pin num="CN5_8" name="AVDD" type="power_in"/>
+        <pin num="CN5_9" name="D14" type="bidirectional"/>
+        <pin num="CN5_10" name="D15" type="bidirectional"/>
+        <pin num="CN6_1" name="NC" type="no_connect"/>
+        <pin num="CN6_2" name="IOREF" type="bidirectional"/>
+        <pin num="CN6_3" name="NRST" type="bidirectional"/>
+        <pin num="CN6_4" name="+3V3" type="power_in"/>
+        <pin num="CN6_5" name="+5V" type="power_in"/>
+        <pin num="CN6_6" name="GND" type="power_in"/>
+        <pin num="CN6_7" name="GND" type="power_in"/>
+        <pin num="CN6_8" name="VIN" type="power_in"/>
+        <pin num="CN7_1" name="PC10" type="bidirectional"/>
+        <pin num="CN7_2" name="PC11" type="bidirectional"/>
+        <pin num="CN7_3" name="PC12" type="bidirectional"/>
+        <pin num="CN7_4" name="PD2" type="bidirectional"/>
+        <pin num="CN7_5" name="VDD" type="power_in"/>
+        <pin num="CN7_6" name="E5V" type="power_in"/>
+        <pin num="CN7_7" name="PB8-BOOT0" type="bidirectional"/>
+        <pin num="CN7_8" name="GND" type="power_in"/>
+        <pin num="CN7_9" name="NC" type="no_connect"/>
+        <pin num="CN7_10" name="NC" type="no_connect"/>
+        <pin num="CN7_11" name="NC" type="no_connect"/>
+        <pin num="CN7_12" name="IOREF" type="bidirectional"/>
+        <pin num="CN7_13" name="PA13" type="bidirectional"/>
+        <pin num="CN7_14" name="NRST" type="bidirectional"/>
+        <pin num="CN7_15" name="PA14" type="bidirectional"/>
+        <pin num="CN7_16" name="+3V3" type="power_in"/>
+        <pin num="CN7_17" name="PA15" type="bidirectional"/>
+        <pin num="CN7_18" name="+5V" type="power_in"/>
+        <pin num="CN7_19" name="GND" type="power_in"/>
+        <pin num="CN7_20" name="GND" type="power_in"/>
+        <pin num="CN7_21" name="PB7" type="bidirectional"/>
+        <pin num="CN7_22" name="GND" type="power_in"/>
+        <pin num="CN7_23" name="PC13" type="bidirectional"/>
+        <pin num="CN7_24" name="VIN" type="power_in"/>
+        <pin num="CN7_25" name="PC14" type="bidirectional"/>
+        <pin num="CN7_26" name="NC" type="no_connect"/>
+        <pin num="CN7_27" name="PC15" type="bidirectional"/>
+        <pin num="CN7_28" name="PA0" type="bidirectional"/>
+        <pin num="CN7_29" name="PF0" type="bidirectional"/>
+        <pin num="CN7_30" name="PA1" type="bidirectional"/>
+        <pin num="CN7_31" name="PF1" type="bidirectional"/>
+        <pin num="CN7_32" name="PA4" type="bidirectional"/>
+        <pin num="CN7_33" name="VBAT" type="power_in"/>
+        <pin num="CN7_34" name="PB0" type="bidirectional"/>
+        <pin num="CN7_35" name="PC2" type="bidirectional"/>
+        <pin num="CN7_36" name="PC1/PB9" type="bidirectional"/>
+        <pin num="CN7_37" name="PC3" type="bidirectional"/>
+        <pin num="CN7_38" name="PC0/PA15" type="bidirectional"/>
+        <pin num="CN8_1" name="A0" type="input"/>
+        <pin num="CN8_2" name="A1" type="input"/>
+        <pin num="CN8_3" name="A2" type="input"/>
+        <pin num="CN8_4" name="A3" type="input"/>
+        <pin num="CN8_5" name="A4" type="input"/>
+        <pin num="CN8_6" name="A5" type="input"/>
+        <pin num="CN9_1" name="D0" type="input"/>
+        <pin num="CN9_2" name="D1" type="output"/>
+        <pin num="CN9_3" name="D2" type="bidirectional"/>
+        <pin num="CN9_4" name="D3" type="bidirectional"/>
+        <pin num="CN9_5" name="D4" type="bidirectional"/>
+        <pin num="CN9_6" name="D5" type="bidirectional"/>
+        <pin num="CN9_7" name="D6" type="bidirectional"/>
+        <pin num="CN9_8" name="D7" type="bidirectional"/>
+        <pin num="CN10_1" name="PC9" type="bidirectional"/>
+        <pin num="CN10_2" name="PC8" type="bidirectional"/>
+        <pin num="CN10_3" name="PB8" type="bidirectional"/>
+        <pin num="CN10_4" name="PC6" type="bidirectional"/>
+        <pin num="CN10_5" name="PB9" type="bidirectional"/>
+        <pin num="CN10_6" name="PC5" type="bidirectional"/>
+        <pin num="CN10_7" name="AVDD" type="power_in"/>
+        <pin num="CN10_8" name="5V_USB_CHGR" type="power_in"/>
+        <pin num="CN10_9" name="GND" type="power_in"/>
+        <pin num="CN10_10" name="NC" type="no_connect"/>
+        <pin num="CN10_11" name="PA5" type="bidirectional"/>
+        <pin num="CN10_12" name="PA12" type="bidirectional"/>
+        <pin num="CN10_13" name="PA6" type="bidirectional"/>
+        <pin num="CN10_14" name="PA11" type="bidirectional"/>
+        <pin num="CN10_15" name="PA7" type="bidirectional"/>
+        <pin num="CN10_16" name="PB12" type="bidirectional"/>
+        <pin num="CN10_17" name="PB6" type="bidirectional"/>
+        <pin num="CN10_18" name="PB11" type="bidirectional"/>
+        <pin num="CN10_19" name="PC7" type="bidirectional"/>
+        <pin num="CN10_20" name="GND" type="power_in"/>
+        <pin num="CN10_21" name="PA9" type="bidirectional"/>
+        <pin num="CN10_22" name="PB2" type="bidirectional"/>
+        <pin num="CN10_23" name="PA8" type="bidirectional"/>
+        <pin num="CN10_24" name="PB1" type="bidirectional"/>
+        <pin num="CN10_25" name="PB10" type="bidirectional"/>
+        <pin num="CN10_26" name="PB15" type="bidirectional"/>
+        <pin num="CN10_27" name="PB4" type="bidirectional"/>
+        <pin num="CN10_28" name="PB14" type="bidirectional"/>
+        <pin num="CN10_29" name="PB5" type="bidirectional"/>
+        <pin num="CN10_30" name="PB13" type="bidirectional"/>
+        <pin num="CN10_31" name="PB3" type="bidirectional"/>
+        <pin num="CN10_32" name="AGND" type="power_in"/>
+        <pin num="CN10_33" name="PA10" type="bidirectional"/>
+        <pin num="CN10_34" name="PC4" type="bidirectional"/>
+        <pin num="CN10_35" name="PC4/PA2" type="bidirectional"/>
+        <pin num="CN10_36" name="NC" type="no_connect"/>
+        <pin num="CN10_37" name="PC5/PA3" type="bidirectional"/>
+        <pin num="CN10_38" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:/Users/prysi/Documents/Git/USBCPDto60V_HW/KiCad Library/SamacSys_Parts.kicad_sym</uri>
+    </library>
+    <library logical="USBC_PD">
+      <uri>C:/Users/prysi/Documents/Git/USBCPDto60V_HW/Library.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="IC1" pin="8" pinfunction="VS" pintype="passive"/>
+      <node ref="U1" pin="CN7_16" pinfunction="+3V3" pintype="power_in"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="IC2" pin="1" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC3" pin="1" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC4" pin="3" pinfunction="OUT" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="+BATT">
+      <node ref="C6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C8" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="IC1" pin="1" pinfunction="IN+_1" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="IN+_2" pintype="passive"/>
+      <node ref="Q3" pin="10" pinfunction="D_6" pintype="passive"/>
+      <node ref="Q3" pin="11" pinfunction="D_7" pintype="passive"/>
+      <node ref="Q3" pin="5" pinfunction="D_1" pintype="passive"/>
+      <node ref="Q3" pin="6" pinfunction="D_2" pintype="passive"/>
+      <node ref="Q3" pin="7" pinfunction="D_3" pintype="passive"/>
+      <node ref="Q3" pin="8" pinfunction="D_4" pintype="passive"/>
+      <node ref="Q3" pin="9" pinfunction="D_5" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="IC2" pin="7" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC3" pin="7" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC4" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="LED1" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="LED2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="LED3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="S_1" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="S_1" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="CN10_20" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="CN10_9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="CN7_19" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="CN7_20" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="CN7_22" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="CN7_8" pinfunction="GND" pintype="power_in"/>
+      <node ref="Z1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Z3" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(IC1-IN-_1)">
+      <node ref="IC1" pin="3" pinfunction="IN-_1" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="IN-_2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(IC1-VOUT)">
+      <node ref="IC1" pin="7" pinfunction="VOUT" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(IC2-HB)">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="IC2" pin="2" pinfunction="HB" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(IC2-HI)">
+      <node ref="IC2" pin="5" pinfunction="HI" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(IC2-HO)">
+      <node ref="IC2" pin="3" pinfunction="HO" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="Z2" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(IC2-LI)">
+      <node ref="IC2" pin="6" pinfunction="LI" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(IC2-LO)">
+      <node ref="IC2" pin="8" pinfunction="LO" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="Z1" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(IC3-HB)">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="IC3" pin="2" pinfunction="HB" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(IC3-HI)">
+      <node ref="IC3" pin="5" pinfunction="HI" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(IC3-HO)">
+      <node ref="IC3" pin="3" pinfunction="HO" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="Z4" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(IC3-LI)">
+      <node ref="IC3" pin="6" pinfunction="LI" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(IC3-LO)">
+      <node ref="IC3" pin="8" pinfunction="LO" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="Z3" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(JP1-B)">
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="S1" pin="B1" pinfunction="NO" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(LED1-A)">
+      <node ref="LED1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(LED2-A)">
+      <node ref="LED2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(LED3-A)">
+      <node ref="LED3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="PA8_PWM">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="CN10_23" pinfunction="PA8" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="PA9_PWM">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="CN10_21" pinfunction="PA9" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="PA10_ADC_Vout">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U1" pin="CN10_33" pinfunction="PA10" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="PB3_ADC_Iout">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="CN10_31" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="PB11_BTN">
+      <node ref="S1" pin="A1" pinfunction="COM" pintype="passive"/>
+      <node ref="U1" pin="CN10_18" pinfunction="PB11" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="PB12_LED">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U1" pin="CN10_16" pinfunction="PB12" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="PB13_PWM">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="CN10_30" pinfunction="PB13" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="PB14_PWM">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="CN10_28" pinfunction="PB14" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="Q1_PWM">
+      <node ref="Q1" pin="4" pinfunction="G" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="30" name="Q1_S">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="IC2" pin="4" pinfunction="HS" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="S_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="Q2" pin="10" pinfunction="D_6" pintype="passive"/>
+      <node ref="Q2" pin="11" pinfunction="D_7" pintype="passive"/>
+      <node ref="Q2" pin="5" pinfunction="D_1" pintype="passive"/>
+      <node ref="Q2" pin="6" pinfunction="D_2" pintype="passive"/>
+      <node ref="Q2" pin="7" pinfunction="D_3" pintype="passive"/>
+      <node ref="Q2" pin="8" pinfunction="D_4" pintype="passive"/>
+      <node ref="Q2" pin="9" pinfunction="D_5" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Z2" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="31" name="Q2_PWM">
+      <node ref="Q2" pin="4" pinfunction="G" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Q3_PWM">
+      <node ref="Q3" pin="4" pinfunction="G" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="33" name="Q3_S">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="IC3" pin="4" pinfunction="HS" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="S_1" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="Q4" pin="10" pinfunction="D_6" pintype="passive"/>
+      <node ref="Q4" pin="11" pinfunction="D_7" pintype="passive"/>
+      <node ref="Q4" pin="5" pinfunction="D_1" pintype="passive"/>
+      <node ref="Q4" pin="6" pinfunction="D_2" pintype="passive"/>
+      <node ref="Q4" pin="7" pinfunction="D_3" pintype="passive"/>
+      <node ref="Q4" pin="8" pinfunction="D_4" pintype="passive"/>
+      <node ref="Q4" pin="9" pinfunction="D_5" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Z4" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="34" name="Q4_PWM">
+      <node ref="Q4" pin="4" pinfunction="G" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="35" name="VBUS">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC4" pin="1" pinfunction="VCC" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q1" pin="10" pinfunction="D_6" pintype="passive"/>
+      <node ref="Q1" pin="11" pinfunction="D_7" pintype="passive"/>
+      <node ref="Q1" pin="5" pinfunction="D_1" pintype="passive"/>
+      <node ref="Q1" pin="6" pinfunction="D_2" pintype="passive"/>
+      <node ref="Q1" pin="7" pinfunction="D_3" pintype="passive"/>
+      <node ref="Q1" pin="8" pinfunction="D_4" pintype="passive"/>
+      <node ref="Q1" pin="9" pinfunction="D_5" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="36" name="unconnected-(IC1-NC-Pad6)">
+      <node ref="IC1" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U1A-+5V-PadCN7_18)">
+      <node ref="U1" pin="CN7_18" pinfunction="+5V" pintype="power_in+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U1A-E5V-PadCN7_6)">
+      <node ref="U1" pin="CN7_6" pinfunction="E5V" pintype="power_in+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U1A-IOREF-PadCN7_12)">
+      <node ref="U1" pin="CN7_12" pinfunction="IOREF" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U1A-NC-PadCN7_9)">
+      <node ref="U1" pin="CN7_9" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U1A-NC-PadCN7_10)">
+      <node ref="U1" pin="CN7_10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1A-NC-PadCN7_11)">
+      <node ref="U1" pin="CN7_11" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1A-NC-PadCN7_26)">
+      <node ref="U1" pin="CN7_26" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U1A-NRST-PadCN7_14)">
+      <node ref="U1" pin="CN7_14" pinfunction="NRST" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U1A-PA0-PadCN7_28)">
+      <node ref="U1" pin="CN7_28" pinfunction="PA0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U1A-PA1-PadCN7_30)">
+      <node ref="U1" pin="CN7_30" pinfunction="PA1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U1A-PA4-PadCN7_32)">
+      <node ref="U1" pin="CN7_32" pinfunction="PA4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U1A-PA13-PadCN7_13)">
+      <node ref="U1" pin="CN7_13" pinfunction="PA13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U1A-PA14-PadCN7_15)">
+      <node ref="U1" pin="CN7_15" pinfunction="PA14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U1A-PA15-PadCN7_17)">
+      <node ref="U1" pin="CN7_17" pinfunction="PA15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U1A-PB0-PadCN7_34)">
+      <node ref="U1" pin="CN7_34" pinfunction="PB0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U1A-PB7-PadCN7_21)">
+      <node ref="U1" pin="CN7_21" pinfunction="PB7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U1A-PB8-BOOT0-PadCN7_7)">
+      <node ref="U1" pin="CN7_7" pinfunction="PB8-BOOT0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U1A-PC0{slash}PA15-PadCN7_38)">
+      <node ref="U1" pin="CN7_38" pinfunction="PC0/PA15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U1A-PC1{slash}PB9-PadCN7_36)">
+      <node ref="U1" pin="CN7_36" pinfunction="PC1/PB9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U1A-PC2-PadCN7_35)">
+      <node ref="U1" pin="CN7_35" pinfunction="PC2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U1A-PC3-PadCN7_37)">
+      <node ref="U1" pin="CN7_37" pinfunction="PC3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U1A-PC10-PadCN7_1)">
+      <node ref="U1" pin="CN7_1" pinfunction="PC10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U1A-PC11-PadCN7_2)">
+      <node ref="U1" pin="CN7_2" pinfunction="PC11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U1A-PC12-PadCN7_3)">
+      <node ref="U1" pin="CN7_3" pinfunction="PC12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U1A-PC13-PadCN7_23)">
+      <node ref="U1" pin="CN7_23" pinfunction="PC13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U1A-PC14-PadCN7_25)">
+      <node ref="U1" pin="CN7_25" pinfunction="PC14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U1A-PC15-PadCN7_27)">
+      <node ref="U1" pin="CN7_27" pinfunction="PC15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U1A-PD2-PadCN7_4)">
+      <node ref="U1" pin="CN7_4" pinfunction="PD2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U1A-PF0-PadCN7_29)">
+      <node ref="U1" pin="CN7_29" pinfunction="PF0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U1A-PF1-PadCN7_31)">
+      <node ref="U1" pin="CN7_31" pinfunction="PF1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U1A-VBAT-PadCN7_33)">
+      <node ref="U1" pin="CN7_33" pinfunction="VBAT" pintype="power_in+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U1A-VDD-PadCN7_5)">
+      <node ref="U1" pin="CN7_5" pinfunction="VDD" pintype="power_in+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U1A-VIN-PadCN7_24)">
+      <node ref="U1" pin="CN7_24" pinfunction="VIN" pintype="power_in+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U1B-5V_USB_CHGR-PadCN10_8)">
+      <node ref="U1" pin="CN10_8" pinfunction="5V_USB_CHGR" pintype="power_in+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U1B-AGND-PadCN10_32)">
+      <node ref="U1" pin="CN10_32" pinfunction="AGND" pintype="power_in+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U1B-AVDD-PadCN10_7)">
+      <node ref="U1" pin="CN10_7" pinfunction="AVDD" pintype="power_in+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U1B-NC-PadCN10_10)">
+      <node ref="U1" pin="CN10_10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U1B-NC-PadCN10_36)">
+      <node ref="U1" pin="CN10_36" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U1B-NC-PadCN10_38)">
+      <node ref="U1" pin="CN10_38" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U1B-PA5-PadCN10_11)">
+      <node ref="U1" pin="CN10_11" pinfunction="PA5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U1B-PA6-PadCN10_13)">
+      <node ref="U1" pin="CN10_13" pinfunction="PA6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U1B-PA7-PadCN10_15)">
+      <node ref="U1" pin="CN10_15" pinfunction="PA7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U1B-PA11-PadCN10_14)">
+      <node ref="U1" pin="CN10_14" pinfunction="PA11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U1B-PA12-PadCN10_12)">
+      <node ref="U1" pin="CN10_12" pinfunction="PA12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U1B-PB1-PadCN10_24)">
+      <node ref="U1" pin="CN10_24" pinfunction="PB1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U1B-PB2-PadCN10_22)">
+      <node ref="U1" pin="CN10_22" pinfunction="PB2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U1B-PB4-PadCN10_27)">
+      <node ref="U1" pin="CN10_27" pinfunction="PB4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U1B-PB5-PadCN10_29)">
+      <node ref="U1" pin="CN10_29" pinfunction="PB5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U1B-PB6-PadCN10_17)">
+      <node ref="U1" pin="CN10_17" pinfunction="PB6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U1B-PB8-PadCN10_3)">
+      <node ref="U1" pin="CN10_3" pinfunction="PB8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U1B-PB9-PadCN10_5)">
+      <node ref="U1" pin="CN10_5" pinfunction="PB9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U1B-PB10-PadCN10_25)">
+      <node ref="U1" pin="CN10_25" pinfunction="PB10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U1B-PB15-PadCN10_26)">
+      <node ref="U1" pin="CN10_26" pinfunction="PB15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U1B-PC4-PadCN10_34)">
+      <node ref="U1" pin="CN10_34" pinfunction="PC4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U1B-PC4{slash}PA2-PadCN10_35)">
+      <node ref="U1" pin="CN10_35" pinfunction="PC4/PA2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U1B-PC5-PadCN10_6)">
+      <node ref="U1" pin="CN10_6" pinfunction="PC5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U1B-PC5{slash}PA3-PadCN10_37)">
+      <node ref="U1" pin="CN10_37" pinfunction="PC5/PA3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U1B-PC6-PadCN10_4)">
+      <node ref="U1" pin="CN10_4" pinfunction="PC6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U1B-PC7-PadCN10_19)">
+      <node ref="U1" pin="CN10_19" pinfunction="PC7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U1B-PC8-PadCN10_2)">
+      <node ref="U1" pin="CN10_2" pinfunction="PC8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U1B-PC9-PadCN10_1)">
+      <node ref="U1" pin="CN10_1" pinfunction="PC9" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>

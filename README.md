@@ -17,6 +17,6 @@ Done:
 To Do:
 - Lower Noise on ADCs
 - double check new Timer Routing
-- Maybe add seperate imput ADCs
+- Update ADC channel inputs
   
 ![image](https://github.com/Pryside/USBCPDto60V_HW/assets/31861192/a42d6329-dcfc-4d50-ad50-5dc436f681a8)
